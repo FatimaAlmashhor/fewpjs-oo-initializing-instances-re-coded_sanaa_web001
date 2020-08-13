@@ -12,7 +12,7 @@ bfast.juice;
 
 class Lunch {
   constructor(name , name2 , name3){
-    this.salad; = name ;
+    this.salad = name ;
   
     this.soup = name2 ;
     this.drink =name3 ;
