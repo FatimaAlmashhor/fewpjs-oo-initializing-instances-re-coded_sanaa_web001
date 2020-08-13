@@ -16,3 +16,8 @@ class Lunch {
     this.drink = name2 ;
   }
 }
+
+newlunch = new Lunch('side salad', 'broccoli cheddar soup', 'iced tea')
+    expect(newlunch.salad).to.equal('side salad')
+    expect(newlunch.soup).to.equal('broccoli cheddar soup')
+    expect(newlunch.drink).to.equal('iced tea')
