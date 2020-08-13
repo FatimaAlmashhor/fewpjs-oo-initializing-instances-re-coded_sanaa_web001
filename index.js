@@ -1,8 +1,8 @@
 // Write your code here
-class Breakfast {
+class breakfast {
   constructor(name , name2){
     
   }
 }
 
-let breakfast = new breakfast('eggs', 'juice')
+let bfast = new breakfast('eggs', 'juice')
