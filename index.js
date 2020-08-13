@@ -23,3 +23,13 @@ let newlunch = new Lunch('side salad', 'broccoli cheddar soup', 'iced tea')
 newlunch.salad;
 newlunch.soup;
 newlunch.drink ; 
+
+
+class Dinner {
+  constructor(name , name2 , name3){
+    this.salad = name ;
+  
+    this.soup = name2 ;
+    this.drink =name3 ;
+  }
+}
