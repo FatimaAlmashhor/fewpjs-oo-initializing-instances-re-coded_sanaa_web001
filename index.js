@@ -1,6 +1,6 @@
 // Write your code here
 class Breakfast {
-  constructor(name , name){
+  constructor(name , name2){
     
   }
 }
