@@ -26,10 +26,16 @@ newlunch.drink ;
 
 
 class Dinner {
-  constructor(name , name2 , name3){
+  constructor(name , name2 , name3 , name4){
     this.salad = name ;
-  
     this.soup = name2 ;
-    this.drink =name3 ;
+    this.entree = name3 ; 
+    this._dessert = name4 ;
   }
 }
+
+let  newdinner = new Dinner('balsamic salad', 'consomme', 'filet mignon', 'cheesecake')
+    newdinner.salad;
+    newdinner.soup;
+    newdinner.entree;
+    newdinner._dessert;
