@@ -3,4 +3,4 @@ class Breakfast {
   
 }
 
-let breakfast
+let breakfast = new breakfast()
